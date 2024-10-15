@@ -9,11 +9,11 @@ const products = await getCollection('products')
 <Layout title="Productos Disponibles">
 	<main>
 		<div class="flex justify-center gap-3">
-			<img src="/favicon.png" alt="" class=" w-14 h-14">
+			<img src="/favicon.png" alt="" class="invisible md:visible w-14 h-14">
 			<h1 class="text-center text-4xl font-extrabold pb-16">
 				Productos Disponibles 
 			</h1>
-			<img src="/favicon.png" alt="" class=" w-14 h-14">
+			<img src="/favicon.png" alt="" class="invisible md:visible w-14 h-14">
 		</div>
 
 
@@ -26,7 +26,7 @@ const products = await getCollection('products')
 						const { title, img, price, description} = data
 
 						return(
-							<article class="flex">
+							<article class="flex flex-col md:flex-row">
 								<a href={`/productos/${slug}`} class="mb-2 xl:mb-0 transition hover:scale-110">
 									<img transition:name={`img-${slug}`} class="object-cover mr-8 w-44 h-44 rounded" src={`${img}`} alt={title} />
 								</a>
