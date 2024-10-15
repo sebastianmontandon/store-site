@@ -1,0 +1,40 @@
+---
+import { getCollection, render } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import Gallery from "../../components/Gallery.astro";
+
+export async function getStaticPaths () {
+    const products = await getCollection("products");
+
+    return products.map((product) => ({
+        params: { id: product.slug },
+        props: { product }
+    }))
+}
+
+const { product } = Astro.props
+const { data, slug } = product
+const { title, img, price} = data
+
+const { Content } = await render(product)
+---
+
+<Layout title={`${title}`}>
+    <div class="grid grid-flow-row md:grid-flow-col gap-12">
+        <aside class="flex flex-col items-center gap-4">
+            <a href="/" class="hover:underline opacity-70">← Volver</a>
+            <Gallery />
+            <!-- <img transition:name={`img-${slug}`} src={`/${img}`} alt={title} class="rounded w-96 h-auto" /> -->
+        </aside>
+        <main class="max-w-full">
+            <h1 class="text-4xl font-bold mb-4 text-sky-200">
+                {title}
+            </h1>
+            <div class="mt-4 prose prose-invert leading-relaxed">
+                <span class="text-3xl text-yellow-200 font-medium">u$s {price}</span>
+                <Content />
+            </div>
+        </main>
+
+    </div>
+</Layout>
