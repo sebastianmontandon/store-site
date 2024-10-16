@@ -1,6 +1,6 @@
 ---
 title: DJI Mavic 2 Pro Dron profesional
-img: ["/src/assets/mavick-2-pro/image-1.jpg","/src/assets/mavick-2-pro/image-2.jpg","/src/assets/mavick-2-pro/image-3.jpeg","/src/assets/mavick-2-pro/image-4.jpg" ]
+img: ["/mavick-2-pro/image-1.jpg","/mavick-2-pro/image-2.jpg","/mavick-2-pro/image-3.jpeg","/mavick-2-pro/image-4.jpg" ]
 price: 800
 description: El Apple Watch Series 7 tiene pantalla más grande, bordes curvados, carga rápida, y es resistente al agua y polvo.
 

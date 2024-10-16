@@ -29,7 +29,7 @@ const products = await getCollection('products')
 							<article class="flex flex-col md:flex-row text-center md:text-left mb-10 md:mb-0">
 								<div class="center transition hover:scale-110">
 									<a href={`/productos/${slug}`} class="mb-2 xl:mb-0">
-										<img transition:name={`img-${slug}`} class="object-cover mb-3 md:mr-8 md:w-44 md:h-44 rounded" src={`${img[0]}`} alt={title} />
+										<img class="object-cover mb-3 md:mr-8 md:w-44 md:h-44 rounded" src={`${img[0]}`} alt={title} />
 									</a>
 								</div>
 
