@@ -29,7 +29,7 @@ const products = await getCollection('products')
 							<article class="flex flex-col md:flex-row text-center md:text-left mb-10 md:mb-0">
 								<div class="center transition hover:scale-110">
 									<a href={`/productos/${slug}`} class="mb-2 xl:mb-0">
-										<img transition:name={`img-${slug}`} class="object-cover mb-3 md:mr-8 w-44 h-44 rounded" src={`${img}`} alt={title} />
+										<img transition:name={`img-${slug}`} class="object-cover mb-3 md:mr-8 md:w-44 md:h-44 rounded" src={`${img}`} alt={title} />
 									</a>
 								</div>
 
@@ -38,11 +38,11 @@ const products = await getCollection('products')
 										<a href={`/productos/${slug}`} class="hover:underline">{title}</a>
 									</h2>
 									<p class="text-sm mb-4 text-gray-300 max-w-sm">{description}</p>
-									<div class="flex justify-between p-3">
-										<a href="" class="transition hover:scale-125 opacity-70  hover:opacity-100 hover:-rotate-6">
-											{/* <WPLogo /> */}
-										</a>
-										<span class="text-3xl text-yellow-100">u$s {price}</span>
+									<div class="flex justify-center md:justify-end font-semibold md:font-normal p-3">
+										{/* <a href="" class="transition hover:scale-125 opacity-70  hover:opacity-100 hover:-rotate-6">
+											<WPLogo />
+										</a> */}
+										<span class="text-3xl text-yellow-200">u$s {price}</span>
 									</div>
 								</div>
 							</article>
