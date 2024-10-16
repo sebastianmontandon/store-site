@@ -1,6 +1,6 @@
 ---
 title: MacBook Air (15 pulgadas, M2, 2023)
-img: macbook-2023/macbook.jpeg
+img: ["/src/assets/macbook-2023/image-1.jpg","/src/assets/macbook-2023/image-2.jpeg","/src/assets/macbook-2023/image-3.jpg","/src/assets/macbook-2023/image-4.jpg" ]
 price: 1500
 description: El MacBook Air 15" (M2, 2023) combina diseño ultradelgado con un rendimiento potente.
 

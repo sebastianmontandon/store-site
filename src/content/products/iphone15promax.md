@@ -1,6 +1,6 @@
 ---
 title: iPhone 15 Pro Max
-img: iphone-15-pro-max/iphone-15-pro-max.jpg
+img: ["/src/assets/iphone-15-pro-max/image-1.jpg","/src/assets/iphone-15-pro-max/image-2.jpg","/src/assets/iphone-15-pro-max/image-3.jpeg","/src/assets/iphone-15-pro-max/image-4.jpg" ]
 price: 1500
 description: El iPhone 15 Pro Max redefine la innovación con su elegante diseño de titanio, pantalla Super Retina XDR y potencia incomparable gracias al chip A17 Pro.
 
