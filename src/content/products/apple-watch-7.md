@@ -1,9 +1,9 @@
 ---
 title: Apple Watch 7 (GPS, 45mm)
-img: ["/apple-watch-7/image-1.jpeg","/apple-watch-7/image-2.jpg","/apple-watch-7/image-3.jpg","/apple-watch-7/image-4.jpg" ]
+img: ["/apple-watch-7/image-1.webp","/apple-watch-7/image-2.webp","/apple-watch-7/image-3.webp","/apple-watch-7/image-4.webp" ]
 price: 600
 description: El Apple Watch Series 7 tiene pantalla más grande, bordes curvados, carga rápida, y es resistente al agua y polvo.
-
+url: "https://support.apple.com/es-la/111909"
 ---
 **> Funcionalidades**
 GPS/GNSS,

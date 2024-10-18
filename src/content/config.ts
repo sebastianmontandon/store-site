@@ -6,6 +6,7 @@ const products = defineCollection({
         img: z.string().array(),
         price: z.number(),
         description: z.string(),
+        url: z.string().url()
     })
 })
 

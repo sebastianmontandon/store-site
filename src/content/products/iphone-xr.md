@@ -2,7 +2,8 @@
 title: iPhone XR (128Gb)
 img: ["/iphone-xr/image-1.webp","/iphone-xr/image-2.webp","/iphone-xr/image-3.webp","/iphone-xr/image-4.jpg" ]
 price: 350
-description: El iPhone 15 Pro Max redefine la innovación con su elegante diseño de titanio, pantalla Super Retina XDR y potencia incomparable gracias al chip A17 Pro.
+description: El iPhone XR tiene pantalla Liquid Retina de 6.1 pulgadas, chip A12 Bionic, cámara trasera de 12 MP y batería de larga duración.
+url: "https://support.apple.com/es-la/111868"
 ---
 **> Capacidad:**
 128 GB
