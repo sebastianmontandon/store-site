@@ -16,7 +16,7 @@ const { title } = Astro.props;
 		<title>{title}</title>
 		<ClientRouter />
 	</head>
-	<body>
+	<body class="md:p-14">
     	<div>
 			<slot />
 		</div>
@@ -44,7 +44,7 @@ const { title } = Astro.props;
 	}
 
 	body {
-		@apply grid place-content-center p-14;
+		@apply grid place-content-center p-12;
 	}
 
 	body > div {
