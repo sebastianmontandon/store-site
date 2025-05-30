@@ -1,6 +1,6 @@
 # Tienda de Electrónicos Modernos
 
-![Banner del Proyecto](public/favicon.png)
+![Banner del Proyecto](https://i.postimg.cc/J4H6vnwD/image.png)
 
 Bienvenido a nuestra tienda en línea de productos electrónicos de última generación. Este proyecto es un catálogo interactivo construido con Astro, Tailwind CSS y TypeScript, diseñado para mostrar productos tecnológicos de alta gama de manera atractiva y responsiva.
 
