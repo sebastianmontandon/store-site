@@ -1,24 +1,96 @@
-# Astro Starter Kit: Basics
+# Tienda de Electrónicos Modernos
 
-```sh
-npm create astro@latest -- --template basics
+![Banner del Proyecto](public/favicon.png)
+
+Bienvenido a nuestra tienda en línea de productos electrónicos de última generación. Este proyecto es un catálogo interactivo construido con Astro, Tailwind CSS y TypeScript, diseñado para mostrar productos tecnológicos de alta gama de manera atractiva y responsiva.
+
+## 🚀 Características
+
+- **Interfaz Moderna**: Diseño limpio y responsivo que se adapta a cualquier dispositivo
+- **Catálogo de Productos**: Muestra productos electrónicos con imágenes de alta calidad
+- **Páginas de Detalle**: Información detallada de cada producto con especificaciones técnicas
+- **Rendimiento Óptimo**: Construido con Astro para un rendimiento excepcional
+- **Diseño con Tailwind CSS**: Estilos modernos y consistentes en toda la aplicación
+
+## 🛠️ Tecnologías Utilizadas
+
+- [Astro](https://astro.build/) - El framework web todo en uno
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilos rápidos
+- [TypeScript](https://www.typescriptlang.org/) - Tipado estático para JavaScript
+- [Vite](https://vitejs.dev/) - Herramienta de construcción de próxima generación
+
+## 🚀 Cómo Empezar
+
+### Prerrequisitos
+
+- Node.js 18.0.0 o superior
+- npm o yarn
+
+### Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tienda-electronica.git
+   cd tienda-electronica
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   # o
+   yarn
+   ```
+
+3. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+
+4. Abre tu navegador en [http://localhost:4321](http://localhost:4321)
+
+## 📦 Construcción
+
+Para crear una versión de producción:
+
+```bash
+npm run build
+# o
+yarn build
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🎨 Personalización
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Añadir un nuevo producto
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. Crea un nuevo archivo Markdown en `src/content/products/`
+2. Sigue el formato de los productos existentes
+3. Añade las imágenes correspondientes en la carpeta `public/`
 
-## 🚀 Project Structure
+### Variables de entorno
 
-Inside of your Astro project, you'll see the following folders and files:
+Crea un archivo `.env` en la raíz del proyecto si necesitas configurar variables de entorno.
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Por favor, lee las [pautas de contribución](CONTRIBUTING.md) antes de enviar un pull request.
+
+## 📞 Contacto
+
+¿Preguntas o comentarios? No dudes en abrir un issue o contactar al equipo de desarrollo.
+
+## 🏗️ Estructura del Proyecto
 
 ```text
 /
-├── public/
 │   └── favicon.svg
 ├── src/
 │   ├── components/
